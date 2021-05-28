@@ -1,0 +1,209 @@
+body{
+    margin: 0px;
+}
+header{
+    margin: 0px;
+    /* width: 100%; */
+    padding: 0px;
+    background-color:black;
+    /* position:absolute; */
+}
+
+header h1{
+    text-align: center;
+    font-size: 0px;
+}
+
+header img{
+    width: 100%;
+    height: 50vh;
+}
+ header video{
+     width: 100%; 
+     /* height: 60vh; */
+     /* float:right; */
+     /* right :20%; */
+     } 
+nav{
+    background-color:#0009;
+  
+    width: 100%;
+    /* height: 80px; */
+    position: fixed;
+ 
+     
+    
+}
+nav ul {
+    /* float:right; */
+    float: left;
+}
+nav ul li 
+{ list-style: none;
+    margin-right: 10px;
+    margin: 10px;
+    display: inline-block;
+    /* float:right; */
+
+}
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    /* text-align: right; */
+    /* float:left; */
+   color:white; 
+}
+nav li a:hover{
+    /* color: tomato; */
+    color:tomato;
+    /* background-color: tomato; */
+}
+nav input{
+    /* margin-right: 10px; */
+    padding: 5px;
+    /* display:inline-block; */
+     
+    /* float:right; */
+}
+
+ 
+
+nav img {
+    float: left;
+    margin: 5px;
+    /* background-color: yellow; */
+}
+ 
+main {
+    /* background-color:darkgreen; */
+    text-align: center;
+    /* float: right; */
+}
+/* main div {
+     background-color:darkgreen; 
+     text-align: center; 
+} */
+section {
+    width: 70%;
+    /* background-color: #f2f2f2; */
+    padding-top: 80px;
+    /* padding: 20px; */
+    /* background-color: greenyellow; */
+    min-height:80vh ;
+     margin: 10px; 
+    border: solid black;
+    margin-left:  10%;
+    /* float:center; */
+     
+}
+ section h1{
+     background-color: coral;
+    font-size: 50px;
+ }
+ 
+ /* img{ */
+  /* margin: 50px; */
+/* border: solid black; */
+  
+ /* } */
+ /* .img-container{
+     column-gap: 20px;
+ } */
+
+ aside{
+     margin: 10px; 
+     margin-top: 20px;
+     /* width: 25%; */
+    float:right; 
+    
+    /* float:; */
+    background-color: goldenrod;
+  
+}
+footer {
+    background-color:#0009;
+    /* overflow: hidden; */
+    clear: both;
+    display: flex;
+    text-align: center;
+    width: 100%;
+     /* padding: 20px; */
+}
+
+footer a {
+    text-decoration: none;
+    padding: 40px;
+    margin: 20px;
+    text-align: center;
+    float: center;
+    color: white;
+}
+
+/* ****** nav button setting**** */
+.menu-button{
+    /* background-color: beige; */
+    background-color:transparent;
+    color: white;
+    cursor: pointer;
+    border: 1px solid blue;
+       /* float: right; */
+    /* right: 30%; */
+    margin: 20px;
+}
+.right-menu {
+    float: left;
+    position:relative;
+  
+    
+    /* display: inline-block; */
+   
+}
+
+.right-button{
+    float: right;
+}
+
+.dropdown-menu{
+    display:none;
+     position:absolute ; 
+    background-color:#0009; 
+
+    /* center ; */
+    right: 4px;
+    min-width:120px;
+    /* box-shadow:darkgreen 0px 8px 16px 0px; */
+
+  } 
+  .dropdown-menu a{
+     color: white;
+     padding: 10px;
+     margin: 10px;
+     display: block;
+}
+.dropdown-menu a :hover{
+    /* background-color:black; */
+    color:orange;
+}
+
+.right-menu:hover .dropdown-menu,.right-button:hover .dropdown-menu{
+    display:block;
+}
+  .right-menu:hover{
+
+      position: relative;
+      display:inline-block;
+      /* float: right; */
+      color: yellowgreen;
+
+  }
+ 
+ .right-button:hover .menu-button{
+      background-color:tomato;
+      
+      /* float: right; */
+
+  } 
+  
+   
+  
+   

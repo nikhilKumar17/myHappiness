@@ -1,0 +1,281 @@
+body{
+    margin: 0px;
+
+}
+header{
+    margin: 0px;
+    /* width: 100%; */
+    padding: 0px;
+    background-color:darkblue;
+    /* position:absolute; */
+}
+
+header h1{
+    text-align: center;
+    font-size: 0px;
+}
+nav{
+    background-color:#0009;
+    /* background-color: violet; */
+  /* overflow:visible; */
+    width: 100%;
+    /* height: 80px; */
+    position: fixed;
+ 
+     
+    
+}
+nav ul {
+    /* float:right; */
+    float: left;
+}
+nav ul li 
+{ list-style: none;
+    margin-right: 10px;
+    margin: 10px;
+    display: inline-block;
+    /* float:right; */
+
+}
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    /* text-align: right; */
+    /* float:left; */
+   color:white; 
+}
+nav li a:hover{
+    /* color: tomato; */
+    color:tomato;
+    /* background-color: tomato; */
+}
+nav input{
+    /* margin-right: 10px; */
+    padding: 5px;
+    /* display:inline-block; */
+     
+    /* float:right; */
+}
+
+ 
+
+nav img {
+    float: left;
+    margin: 5px;
+    /* background-color: yellow; */
+}
+ 
+main {
+    
+    text-align: center;
+    /* background-color:darkgreen;  */
+}
+
+main div {
+    /* background-color:darkgreen; */
+    text-align: center;
+    width: 100%;
+}
+section{
+    width: 74%;
+  
+    padding: 10px;
+    background-color:lawngreen;
+    min-height:75vh ;
+     /* margin: 10px;  */
+    border: solid black;
+    float:left;
+
+    overflow: scroll;
+     
+}
+
+aside{
+    /* margin-top: 10px;  */
+    width: 24%;
+   float:right; /* check */
+   min-height:50vh ;
+   border-right:  solid lightgray;
+ 
+  /* background-color: navy; */
+   background-color:lawngreen;
+   
+}  
+aside input {
+    padding: 10px;
+}
+
+ 
+ /* .img-container{
+     column-gap: 20px;
+ } */
+
+ table,
+ tr,
+ th,
+ td{
+     border: 2px solid black;
+   border-collapse: collapse;
+   padding: 10px;
+   border-spacing: 5px;
+   background-color: white;
+    }
+ 
+
+ 
+footer {
+    background-color: #333;
+    overflow: hidden;
+    clear: both;
+    display: flex;
+    text-align: center;
+     /* padding: 20px; */
+     /* position:sticky; */
+}
+
+footer a {
+    text-decoration: none;
+    padding: 40px;
+    /* margin: 20px; */
+    text-align: center;
+    float: center;
+    color: white;
+}
+
+ 
+/* ****** nav button setting**** */
+.menu-button{
+    /* background-color: beige; */
+    background-color:transparent;
+    color: white;
+    cursor: pointer;
+    border: 1px solid blue;
+       /* float: right; */
+    /* right: 30%; */
+    margin: 20px;
+}
+.right-menu {
+    float: left;
+    position:relative;
+  
+    
+    /* display: inline-block; */
+   
+}
+
+.right-button{
+    float: right;
+}
+
+.dropdown-menu{
+    display:none;
+     position:absolute ; 
+    background-color:#0009; 
+
+    /* center ; */
+    right: 4px;
+    min-width:120px;
+    /* box-shadow:darkgreen 0px 8px 16px 0px; */
+
+  } 
+  .dropdown-menu a{
+     color: white;
+     padding: 10px;
+     margin: 10px;
+     display: block;
+}
+.dropdown-menu a :hover{
+    /* background-color:black; */
+    color:orange;
+}
+
+.right-menu:hover .dropdown-menu,.right-button:hover .dropdown-menu{
+    display:block;
+}
+  .right-menu:hover{
+
+      position: relative;
+      display:inline-block;
+      /* float: right; */
+      color: yellowgreen;
+
+  }
+ 
+ .right-button:hover .menu-button{
+      background-color:tomato;
+      
+      /* float: right; */
+
+  } 
+  
+   
+  
+   
+/* ****** SignUp**** */
+
+.container {
+    /* float:center; */
+    background-color:#0003;
+    /* background-color:transparent; */
+   color :white ;
+   
+    padding: 5px 20px 15px 20px;
+    /* border: 1px solid black; */
+    width: 50%;
+    /* height: 100vh; */
+   position: absolute;
+   left: 20%;
+   top:20%;
+    border-radius: 5px;
+    
+     
+}
+ /*input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="data"], */
+/* input [type="password"] , */
+ input,select,textarea
+{     
+     /* background-color:transparent; */
+    border: 0;
+    /* text-decoration: white; */
+  /* color:lightgray; */
+    /* width: 40%; */
+    padding: 5px;
+   /* border-bottom:  solid black ; */
+   /* border: ; */
+    margin: 10px;
+    /* float: center; */
+}
+  
+ 
+fieldset{
+    /* background-color: #fff; */
+    border: 1px solid darkblue;
+    width: auto;
+    background-color: aqua;
+}
+.Main_heading{
+    text-align: center;
+    color:darkblue;
+}
+button
+{
+ background-color: rgb(47, 255, 134);
+ /* color: white; */
+ /* border: none; */
+ /* border-radius: 4px; */
+ padding: 10px;
+ cursor: pointer;
+ /* width: 100%; */
+ /* height: 50px; */
+  
+}
+ 
+
+/* ***for change in slide**/
+ /* css code for slider */
+ .mySlides {display:none;}
+ /* end of css code for slider */
+ 

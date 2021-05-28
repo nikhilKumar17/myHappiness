@@ -1,0 +1,144 @@
+body{
+    margin: 0px;
+}
+header{
+    margin: 0px;
+    /* width: 100%; */
+    padding: 0px;
+    background-color:darkblue;
+    /* position:absolute; */
+}
+
+header h1{
+    text-align: center;
+    font-size: 0px;
+}
+
+header img{
+    height: 50vh;
+}
+nav{
+    background-color:#0009;
+  
+    width: 100%;
+    /* height: 80px; */
+    position: fixed;
+ 
+     
+    
+}
+nav ul {
+    float:right;
+}
+nav ul li 
+{ list-style: none;
+    margin: 10px;
+    display: inline-block;
+    /* float:right; */
+
+}
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    /* text-align: right; */
+    /* float:left; */
+   color:white; 
+}
+nav a:hover{
+    color: tomato;
+    /* background-color: tomato; */
+}
+nav input{
+    margin: 10px;
+    padding: 10px;
+    /* display:inline-block; */
+     
+    /* float:right; */
+}
+
+nav img {
+    float: left;
+    margin: 5px;
+    /* background-color: yellow; */
+}
+ 
+ main {
+    /* background-color:darkgreen; */
+    text-align: center;
+} 
+section{
+    width: 70%;
+  
+    padding: 20px;
+    /* background-color: greenyellow; */
+    min-height:70vh ;
+     margin: 5px; 
+    border: solid black;
+    float:left;
+     
+}
+
+ /* img{
+  margin: 50px;
+  
+ } */
+ /* .img-container{
+     column-gap: 20px;
+ } */
+
+ aside{
+     margin: 1px; 
+     width: 23%;
+    float:right; 
+    /* float:; */
+    background-color:lawngreen;
+    /* padding: 20px; */
+    /* overflow: hidden; */
+    /* border: crimson;
+    background-color: goldenrod;
+}  
+ 
+footer {
+    background-color: #333;
+    overflow: hidden;
+    /* bottom: 0; */
+    /* background-color: #333;
+   display: flex;
+    position: fixed;
+    bottom:0px;
+    left: 0;
+    right: 0; */
+    /* overflow: hidden; */
+}
+footer {
+    background-color:#0009;
+    /* overflow: hidden; */
+    clear: both;
+    display: flex;
+    text-align: center;
+    width: 100%;
+     /* padding: 20px; */
+}
+
+footer a {
+    text-decoration: none;
+    padding: 40px;
+    margin: 20px;
+    text-align: center;
+    float: center;
+    color: white;
+}
+
+ table,
+ tr,
+ th,
+ td{
+     border: 2px solid black;
+   border-collapse: collapse;
+   padding: 10px;
+   border-spacing: 5px;
+    }
+ 
+
+ 
+
